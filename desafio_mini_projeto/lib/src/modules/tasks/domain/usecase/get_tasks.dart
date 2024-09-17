@@ -21,8 +21,10 @@ class GetTasks implements IGetTasks {
         return (null, tasks);
       }
     } catch (e, stacktrace) {
-      print('Erro ao listar as tarefas: $e\nStacktrace: $stacktrace'); //
-      return (TaskException('Erro ao listar as tarefas: $e'), null);
+      return (
+        TaskException('Erro ao listar as tarefas: $e\nStacktrace: $stacktrace'),
+        null
+      );
     }
   }
 }

@@ -73,9 +73,12 @@ class _TasksPageState extends State<TasksPage> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.add, size: 30, color: Colors.white),
+            icon: const Icon(Icons.add, size: 24, color: Colors.white),
             onPressed: _showAddTaskDialog,
           ),
+          IconButton(
+              icon: const Icon(Icons.camera, size: 24, color: Colors.white),
+              onPressed: () {}),
         ],
       ),
       backgroundColor: Theme.of(context).colorScheme.primaryContainer,

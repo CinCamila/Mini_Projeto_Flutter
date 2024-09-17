@@ -1,11 +1,12 @@
 Faltam:
+- socket para stream da camera - widget
 - logout
-- excluir task
-- validar login
-- validar logout
 -  copiar de uma lista para outras (listas de removidos lixeira)
 
-- listar(ajustar para listar sempre a partir do bd, e todas as tarefas do usuário x)
+Quero fazer:
+- limpar dados digitados na tela de login, ao voltar ou clicar em logout
+- o nome tem um menu interno, que vai ter a opção logout, config e tal.
+
 
 
 
