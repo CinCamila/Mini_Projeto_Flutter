@@ -1,0 +1,15 @@
+Faltam:
+- logout
+- excluir task
+- validar login
+- validar logout
+-  copiar de uma lista para outras (listas de removidos lixeira)
+
+- listar(ajustar para listar sempre a partir do bd, e todas as tarefas do usuário x)
+
+
+
+
+
+
+
