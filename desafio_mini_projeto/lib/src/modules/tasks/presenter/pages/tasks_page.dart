@@ -1,8 +1,8 @@
+import 'package:desafio_mini_projeto/src/modules/tasks/websocket/videostreaming.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:desafio_mini_projeto/src/modules/tasks/presenter/stores/tasks_store.dart';
-import 'package:desafio_mini_projeto/src/modules/tasks/infra/proto/task.pb.dart';
 
 class TasksPage extends StatefulWidget {
   final String userName;
@@ -78,7 +78,16 @@ class _TasksPageState extends State<TasksPage> {
           ),
           IconButton(
               icon: const Icon(Icons.camera, size: 24, color: Colors.white),
-              onPressed: () {}),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return const VideoStream();
+                    },
+                  ),
+                );
+              }),
         ],
       ),
       backgroundColor: Theme.of(context).colorScheme.primaryContainer,

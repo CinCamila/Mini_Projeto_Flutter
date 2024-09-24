@@ -152,12 +152,7 @@ class _SignupPageState extends State<SignupPage> {
                         backgroundColor:
                             const Color.fromARGB(255, 234, 224, 240),
                       ),
-                      onPressed: () {
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (context) {
-                          return const LoginPage(); //ajustar essa página tbm
-                        }));
-                      },
+                      onPressed: () {},
                       child: const Text("Entre com o Google")),
                   const SizedBox(height: 24),
                   Row(

@@ -16,6 +16,9 @@ import 'package:desafio_mini_projeto/src/modules/tasks/presenter/stores/tasks_st
 import 'package:desafio_mini_projeto/src/modules/auth/infra/proto/user.pb.dart';
 import 'package:http/http.dart' as http;
 
+//websocket video
+import 'package:desafio_mini_projeto/src/modules/tasks/websocket/videostreaming.dart';
+
 class TasksModule extends Module {
   //utilities
   @override
@@ -58,5 +61,7 @@ class TasksModule extends Module {
         }
       },
     );
+
+    r.child('/video_stream', child: (context) => const VideoStream());
   }
 }

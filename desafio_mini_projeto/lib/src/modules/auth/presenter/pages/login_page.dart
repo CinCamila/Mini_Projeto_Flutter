@@ -130,16 +130,7 @@ class _LoginPageState extends State<LoginPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) {
-                                return const LoginPage();
-                              },
-                            ),
-                          );
-                        },
+                        onPressed: () {},
                         child: const Text("Esqueceu sua senha?"),
                       ),
                     ],

@@ -1,8 +1,0 @@
-flask
-protobuf
-flask-socketio
-betterproto[compiler]
-eventlet
-opencv-python
-opencv-python-headless
-opencv-contrib-python

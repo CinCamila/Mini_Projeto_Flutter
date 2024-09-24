@@ -1,5 +1,4 @@
 Faltam:
-- socket para stream da camera - widget
 - logout
 -  copiar de uma lista para outras (listas de removidos lixeira)
 

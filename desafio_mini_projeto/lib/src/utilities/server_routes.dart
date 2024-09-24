@@ -6,7 +6,6 @@ class ServerRoutes {
   static const deletetask = 'http://127.0.0.1:10100/remove_task_by_id';
   static const edittask = ''; //ajustar
   //Eventos
-  static const updaterequest = 'http://127.0.0.1:10100/counter/update_request';
-  static const updateresponse =
-      'http://127.0.0.1:10100/counter/update_response';
+  static const updaterequest = 'ws://127.0.0.1:10100/counter/update_request';
+  static const updateresponse = 'ws://127.0.0.1:10100/counter/update_response';
 }
